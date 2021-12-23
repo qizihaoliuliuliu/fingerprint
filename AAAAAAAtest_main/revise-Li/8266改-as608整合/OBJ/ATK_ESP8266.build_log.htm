@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: q z, h, LIC=KRMW3-AE36L-LQJ0Q-NQCI3-4RU7U-4GX4W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\GraduateLearning\arm\fingerprint\AAAAAAAtest_main\revise-Li\8266改-as608整合\USER\ATK_ESP8266.uvprojx
+Project File Date:  10/19/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(309): warning:  #940-D: missing return statement at end of non-void function "press_FR"
+  }
+main.c(555): warning:  #128-D: loop is not reachable
+                while(font_init())                      //检查字库
+main.c(462): warning:  #550-D: variable "fontok" was set but never used
+        u8 fontok=0; 
+main.c(466): warning:  #177-D: variable "timex" was declared but never referenced
+        u8 timex=0; 
+main.c(469): warning:  #177-D: variable "t" was declared but never referenced
+        u16 t=999;              //加速第一次获取链接状态
+main.c(470): warning:  #177-D: variable "res" was declared but never referenced
+        u8 res=0;
+main.c(471): warning:  #177-D: variable "rlen" was declared but never referenced
+        u16 rlen=0;
+main.c(472): warning:  #177-D: variable "constate" was declared but never referenced
+        u8 constate=0;  //连接状态
+main.c: 8 warnings, 0 errors
+linking...
+..\OBJ\ATK_ESP8266.axf: Error: L6200E: Symbol kbd_tbl multiply defined (by common.o and main.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"..\OBJ\ATK_ESP8266.axf" - 1 Error(s), 8 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\GraduateLearning\arm\fingerprint\AAAAAAAtest_main\revise-Li\8266改-as608整合\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

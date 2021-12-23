@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LCD;..\HARDWARE\BEEP;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC;..\HARDWARE\TIMER;..\HARDWARE\SRAM;..\HARDWARE\USART2;..\HARDWARE\AS608;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT</IncludePath>
+              <IncludePath>..\CORE;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LCD;..\HARDWARE\BEEP;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC;..\HARDWARE\TIMER;..\HARDWARE\SRAM;..\HARDWARE\USART2;..\HARDWARE\AS608;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\LED;..\HARDWARE\SRAM;..\USMART;..\HARDWARE\USART3;..\ATK-ESP8266</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -528,6 +528,21 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\AS608\as608.c</FilePath>
             </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\LED\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>sram.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\SRAM\sram.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\USART3\usart3.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -677,6 +692,26 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>ATK_ESP8266</GroupName>
+          <Files>
+            <File>
+              <FileName>common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ATK-ESP8266\common.c</FilePath>
+            </File>
+            <File>
+              <FileName>wifiap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ATK-ESP8266\wifiap.c</FilePath>
+            </File>
+            <File>
+              <FileName>wifista.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ATK-ESP8266\wifista.c</FilePath>
             </File>
           </Files>
         </Group>

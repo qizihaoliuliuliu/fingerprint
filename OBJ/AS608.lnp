@@ -21,6 +21,9 @@
 "..\obj\key.o"
 "..\obj\usart2.o"
 "..\obj\as608.o"
+"..\obj\led.o"
+"..\obj\sram.o"
+"..\obj\usart3.o"
 "..\obj\malloc.o"
 "..\obj\usmart.o"
 "..\obj\usmart_config.o"
@@ -43,6 +46,9 @@
 "..\obj\stm32f4xx_sdio.o"
 "..\obj\stm32f4xx_dma.o"
 "..\obj\startup_stm32f40_41xxx.o"
+"..\obj\common.o"
+"..\obj\wifiap.o"
+"..\obj\wifista.o"
 --strict --scatter "..\OBJ\AS608.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

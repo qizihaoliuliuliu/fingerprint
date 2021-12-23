@@ -60,3 +60,8 @@
 ..\obj\main.o: ..\HARDWARE\USART2\usart2.h
 ..\obj\main.o: ..\HARDWARE\AS608\AS608.h
 ..\obj\main.o: ..\HARDWARE\TIMER\timer.h
+..\obj\main.o: ..\HARDWARE\LED\led.h
+..\obj\main.o: ..\HARDWARE\SRAM\sram.h
+..\obj\main.o: ..\HARDWARE\USART3\usart3.h
+..\obj\main.o: ..\ATK-ESP8266\common.h
+..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
